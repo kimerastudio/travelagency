@@ -91,18 +91,17 @@ const Index = () => {
               data-aos-delay="100"
               className="font-medium text__48 mb-2 text-center"
             >
-              Comprehensive healthcare services{" "}
-              <br className="md:block hidden" /> for your well-being
+              Unlock the Best Flight Deals{" "}
+              <br className="md:block hidden" /> with me
             </h2>
             <p
               data-aos="fade-down"
               data-aos-delay="200"
               className="text__18 text-Msecondary text-center"
             >
-              From preventive care to specialized treatments, our team is
-              dedicated to providing high-
+              With years of experience, I specialize in uncovering unbeatable flight deals. 
               <br className="md:block hidden" />
-              quality care in a comfortable and compassionate environment.
+              I will navigate the complexities of travel for you.
             </p>
 
             <Row className="justify-center gap-y-6">
@@ -127,11 +126,10 @@ const Index = () => {
 
                       <div className="mt-[2rem]">
                         <h5 className="font-medium text__24 mb-2">
-                          Preventive care
+                          Completely free
                         </h5>
                         <p className="text__18 text-[#737373]">
-                          Stay proactive and maintain your health with our
-                          preventive care services.
+                          You never have to pay me a dime.
                         </p>
                       </div>
                     </div>
