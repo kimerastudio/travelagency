@@ -91,7 +91,7 @@ const Index = () => {
               data-aos-delay="100"
               className="font-medium text__48 mb-2 text-center"
             >
-              Unlock the Best Flight Deals{" "}
+              Unlock the best fligh deals{" "}
               <br className="md:block hidden" /> with me
             </h2>
             <p
@@ -152,11 +152,10 @@ const Index = () => {
 
                       <div className="mt-[2rem]">
                         <h5 className="font-medium text__24 mb-2">
-                          Specialized treatments
+                          Huge savings
                         </h5>
                         <p className="text__18 text-[#737373]">
-                          Receive personalized care and treatment for your
-                          specific health concerns.
+                        Discover exclusive discounts tailored to your travel needs.
                         </p>
                       </div>
                     </div>
@@ -179,11 +178,10 @@ const Index = () => {
 
                       <div className="mt-[2rem]">
                         <h5 className="font-medium text__24 mb-2">
-                          Emergency care
+                        Personalized Service
                         </h5>
                         <p className="text__18 text-[#737373]">
-                          Receive personalized care and treatment for your
-                          specific health concerns.
+                        Experience a customized approach to finding your ideal flights.
                         </p>
                       </div>
                     </div>
@@ -204,12 +202,11 @@ const Index = () => {
                 className="my-auto md:!order-1 order-2"
               >
                 <h2 className="font-medium text__48 mb-2">
-                  Personalized care for your health needs
+                Discover your perfect vacation package today
                 </h2>
                 <p className="text__18 text-[#737373] leading-relaxed mb-3">
-                  At our healthcare provider, we offer personalized care,
-                  utilizing advanced technology and a team of experienced staff
-                  to ensure your health needs are met.
+                I curate unique vacation experiences tailored to your preferences. 
+                Whether you seek adventure, relaxation, or cultural immersion, we have the ideal package for you.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -219,11 +216,10 @@ const Index = () => {
 
                       <div className="">
                         <h5 className="font-medium text__20 mt-1 mb-2">
-                          Preventive care
+                        Adventure Awaits
                         </h5>
                         <p className="text__18 text-[#737373] leading-relaxed">
-                          Stay proactive and maintain your health with our
-                          preventive care services.
+                        Experience thrilling excursions and unforgettable journeys designed just for you.
                         </p>
                       </div>
                     </div>
@@ -234,11 +230,10 @@ const Index = () => {
 
                       <div className="">
                         <h5 className="font-medium text__20 mt-1 mb-2">
-                          Technology
+                        Relax and Unwind
                         </h5>
                         <p className="text__18 text-[#737373] leading-relaxed">
-                          We utilize advanced technology to enhance the accuracy
-                          and efficiency of our treatments.
+                        Indulge in serene getaways that rejuvenate your spirit and refresh your mind.
                         </p>
                       </div>
                     </div>
