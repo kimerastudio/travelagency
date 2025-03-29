@@ -59,8 +59,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
             </div>
 
             <p className="text__18 mb-3">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            Since I had Carlos's contact on my phone, every time I travel it's a walk in the park; I delegate most of the work to him at no cost.
             </p>
 
             <div className="flex items-center gap-3">
@@ -70,8 +69,8 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
                 alt=""
               />
               <div className="">
-                <h5 className="font-semibold text__16">Jane Smith</h5>
-                <p className="text__14 text-[#737373]">CTO, Company</p>
+                <h5 className="font-semibold text__16">Sonia Medrano</h5>
+                <p className="text__14 text-[#737373]">Miami, Florida</p>
               </div>
             </div>
           </div>
@@ -85,8 +84,9 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
             </div>
 
             <p className="text__18 mb-3">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            Carlos is a kind and attentive individual; 
+            he turned my chaotic travel plans into a seamless, stress-free adventure. 
+            His proactive approach and attention to detail mean I can relax and truly enjoy my journey.
             </p>
 
             <div className="flex items-center gap-3">
@@ -96,8 +96,8 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
                 alt=""
               />
               <div className="">
-                <h5 className="font-semibold text__16">Jane Smith</h5>
-                <p className="text__14 text-[#737373]">CTO, Company</p>
+                <h5 className="font-semibold text__16">Daniel Reyes</h5>
+                <p className="text__14 text-[#737373]">Bogotá, Colombia</p>
               </div>
             </div>
           </div>
@@ -111,8 +111,8 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
             </div>
 
             <p className="text__18 mb-3">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            Every time I travel, Carlos is my go-to expert. 
+            From crafting a perfect itinerary to offering round-the-clock support, he makes every trip unforgettable.
             </p>
 
             <div className="flex items-center gap-3">
@@ -122,8 +122,8 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
                 alt=""
               />
               <div className="">
-                <h5 className="font-semibold text__16">Jane Smith</h5>
-                <p className="text__14 text-[#737373]">CTO, Company</p>
+                <h5 className="font-semibold text__16">Isabela Moreno</h5>
+                <p className="text__14 text-[#737373]">Madrid, Spain</p>
               </div>
             </div>
           </div>

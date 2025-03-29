@@ -106,7 +106,7 @@ const SecStep = ({
                 </div>
 
                 <div className="md:mt-[2rem]">
-                  <h5 className="font-medium text__20 mb-2">Seamless Booking & Preparation</h5>
+                  <h5 className="font-medium text__20 mb-2">Seamless Booking</h5>
                   <p className="text-[14px] leading-relaxed text-[#737373]">
                   I handle all reservations and logistics, ensuring every detail is organized and your trip is hassle-free from the moment you book.
                   </p>
