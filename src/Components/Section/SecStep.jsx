@@ -4,12 +4,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const SecStep = ({
-  title = `Streamlined process for <br class="md:block hidden" /> accessing
-            healthcare services`,
-  desc = `From preventive care to specialized treatments, our team is
-            dedicated to providing high-
+  title = `I am with you  <br class="md:block hidden" /> every step of the way`,
+  desc = `My service goes far beyond booking your flights and hotels.
             <br class="md:block hidden" />
-            quality care in a comfortable and compassionate environment.`,
+             I’m always just a click away—ready to ensure your journey is seamless and stress-free, from start to finish.`,
   enableAOS = false,
 }) => {
   useEffect(() => {
@@ -57,10 +55,10 @@ const SecStep = ({
                 </div>
 
                 <div className="md:mt-[2rem]">
-                  <h5 className="font-medium text__20 mb-2">01</h5>
+                  <h5 className="font-medium text__20 mb-2">Discover Your Perfect Deal
+                  </h5>
                   <p className="text-[14px] leading-relaxed text-[#737373]">
-                    Create an account and provide your medical history and
-                    insurance information.
+                  I leverage industry expertise and exclusive partnerships to secure the best deals tailored to your travel needs.
                   </p>
                 </div>
               </div>
@@ -83,10 +81,9 @@ const SecStep = ({
                 </div>
 
                 <div className="md:mt-[2rem]">
-                  <h5 className="font-medium text__20 mb-2">02</h5>
+                  <h5 className="font-medium text__20 mb-2">Craft a Tailored Itinerary</h5>
                   <p className="text-[14px] leading-relaxed text-[#737373]">
-                    Browse through a curated list of healthcare providers and
-                    services available to you.
+                  Together, we design a personalized travel plan that captures your interests and highlights must-see attractions and unique experiences.
                   </p>
                 </div>
               </div>
@@ -109,10 +106,9 @@ const SecStep = ({
                 </div>
 
                 <div className="md:mt-[2rem]">
-                  <h5 className="font-medium text__20 mb-2">03</h5>
+                  <h5 className="font-medium text__20 mb-2">Seamless Booking & Preparation</h5>
                   <p className="text-[14px] leading-relaxed text-[#737373]">
-                    Book an appointment or request a telehealth consultation
-                    with your chosen provider.
+                  I handle all reservations and logistics, ensuring every detail is organized and your trip is hassle-free from the moment you book.
                   </p>
                 </div>
               </div>
@@ -133,10 +129,11 @@ const SecStep = ({
                 </div>
 
                 <div className="md:mt-[2rem]">
-                  <h5 className="font-medium text__20 mb-2">04</h5>
+                  <h5 className="font-medium text__20 mb-2">Continuous Support</h5>
                   <p className="text-[14px] leading-relaxed text-[#737373]">
-                    Receive treatment, whether in-person or through virtual
-                    consultations, from top healthcare professionals.
+                  My services don't end once your trip begins.
+                   I remain available to assist with any questions 
+                   or unexpected situations that may arise during your travels, providing peace of mind throughout your journey.
                   </p>
                 </div>
               </div>
