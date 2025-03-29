@@ -32,17 +32,17 @@ const Index = () => {
                   data-aos-delay="200"
                   className="font-medium text__64 mb-2"
                 >
-                  Transforming healthcare with cutting-edge solutions
+                  Your personal travel agent
                 </h1>
                 <p
                   data-aos="fade-right"
                   data-aos-delay="300"
                   className="text__18 text-Msecondary"
                 >
-                  At [Company Name], we are committed to revolutionizing the
-                  healthcare industry by <br className="lg:block hidden" />{" "}
-                  providing cutting-edge technology and exceptional patient
-                  care.
+                  Hello! I am Carlos, I specialize in finding the best flights, 
+                  vacations, and hotels tailored just for you. I can help you transform
+                   your travel dreams into reality by providing personalized service and expert 
+                   guidance—all conveniently through WhatsApp.
                 </p>
               </Col>
               <Col className="my-auto xl:text-right" xl={3}>
@@ -53,7 +53,7 @@ const Index = () => {
                   className="inline-block px-4 py-3 rounded-[12px] bg-Mgreen text-white font-medium text__16"
                 >
                   <div className="flex gap-2">
-                    Download the App
+                    Chat on WhatsApp
                     <img src="/images/arrow.svg" alt="" />
                   </div>
                 </a>
