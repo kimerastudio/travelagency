@@ -91,17 +91,17 @@ const Navbar = ({ enableAOS }) => {
             ></div>
             <li className="w-full">
               <div className="grid grid-cols-2 text-center items-center gap-2 xl:gap-3">
-                <Link
-                  href="/auth/sign-in"
+                <a
+                  href="tel:+13054489987"
                   className={
                     " font-medium text__14 px-2 xl:px-4 py-2 rounded-[6px] " +
                     (careers.includes(router.pathname)
                       ? "text-white border !border-[rgba(255,255,255,0.2)]"
-                      : "text-Mblack border !border-[rgba(0,0,0,0.2)]")
+                      : "text-Mgreen")
                   }
                 >
                   305 448 9987
-                </Link>
+                </a>
                 <Link
                   href="https://wa.me/+13054489987"
                   target="_blank"
@@ -173,8 +173,8 @@ const Navbar = ({ enableAOS }) => {
               </div>
 
               <div className="hidden lg:flex items-center gap-2 xl:gap-3">
-                <Link
-                  href="/auth/sign-in"
+                <a
+                  href="tel:+13054489987"
                   className={
                     " font-medium text__14 px-2 xl:px-4 py-2 rounded-[6px] " +
                     (careers.includes(router.pathname)
@@ -183,7 +183,7 @@ const Navbar = ({ enableAOS }) => {
                   }
                 >
                   305 448 9987
-                </Link>
+                </a>
                 <Link
                   href="https://wa.me/+13054489987"
                   target="_blank"

@@ -99,9 +99,9 @@ const Index = () => {
               data-aos-delay="200"
               className="text__18 text-Msecondary text-center"
             >
-              With years of experience, I specialize in uncovering unbeatable flight deals. 
+              With years of experience, I specialize in uncovering unbeatable flight deals.
               <br className="md:block hidden" />
-              I will navigate the complexities of travel for you.
+               I will navigate the complexities of travel for you.
             </p>
 
             <Row className="justify-center gap-y-6">
@@ -155,7 +155,7 @@ const Index = () => {
                           Huge savings
                         </h5>
                         <p className="text__18 text-[#737373]">
-                        Discover exclusive discounts tailored to your travel needs.
+                        As a licensed travel agent I have access to exclusive discounts that I pass on to you.
                         </p>
                       </div>
                     </div>
