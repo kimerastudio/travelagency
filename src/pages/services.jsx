@@ -31,7 +31,7 @@ const Services = () => {
                             </Col>
                             <Col md={6} className='my-auto'>
                                 <div className="mb-4 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                                    <img src="./../images/FirstAidKit.svg" alt="" />
+                                    <img src="./../images/airplane-in-flight.svg" alt="" />
                                 </div>
 
                                 <h2 className='font-medium text__46 mb-3'>Flight Booking </h2>
@@ -48,7 +48,7 @@ const Services = () => {
                         <Row className='gap-y-6 my-[3rem]'>
                             <Col md={6} className='my-auto md:!order-1 order-2'>
                                 <div className="mb-4 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                                    <img src="./../images/Heartbeat.svg" alt="" />
+                                    <img src="./../images/car-profile.svg" alt="" />
                                 </div>
 
                                 <h2 className='font-medium text__46 mb-3'>Transportation</h2>
@@ -71,7 +71,7 @@ const Services = () => {
                             </Col>
                             <Col md={6} className='my-auto'>
                                 <div className="mb-4 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                                    <img src="./../images/FirstAid.svg" alt="" />
+                                    <img src="./../images/building.svg" alt="" />
                                 </div>
 
                                 <h2 className='font-medium text__46 mb-3'>Hotel Booking</h2>
