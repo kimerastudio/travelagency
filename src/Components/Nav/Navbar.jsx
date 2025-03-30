@@ -137,7 +137,7 @@ const Navbar = ({ enableAOS }) => {
                     (careers.includes(router.pathname) ? "text-white" : "")
                   }
                 >
-                  Carlos Terrazos
+                  Carlito's Way to Travel
                 </h5>
               </Link>
 
