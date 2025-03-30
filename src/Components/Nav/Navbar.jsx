@@ -38,7 +38,7 @@ const Navbar = ({ enableAOS }) => {
     <Fragment>
       <div
         className={
-          "lg:hidden fixed w-full  z-[90] pt-[80px] pb-4 transition-all duration-300 shadow-[0px_20px_50px_#00000024] " +
+          "lg:hidden fixed w-full  z-[90] pt-[100px] pb-4 transition-all duration-300 shadow-[0px_20px_50px_#00000024] " +
           (ToogleMenuResponsive ? "top-0 " : "-top-[100vh] ") +
           (careers.includes(router.pathname) ? "bg-Mblack" : "bg-white")
         }
