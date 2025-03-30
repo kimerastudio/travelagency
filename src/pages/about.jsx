@@ -9,50 +9,6 @@ import SectionDownload from "@/Components/Section/SectionDownload";
 const About = () => {
   const originalUrl = useHostname();
 
-  const dataUser = [
-    {
-      img: "./../images/im (1).png",
-      name: "Dr. John Smith",
-      job: "Cardiologist",
-      detail:
-        "Dr. John Smith is a highly skilled cardiologist with 20+years of experience.",
-    },
-    {
-      img: "./../images/im (2).png",
-      name: "Dr. Emily Johnson",
-      job: "Pediatrician",
-      detail:
-        "Dr. Emily Johnson is a compassionate pediatrician dedicated to providing quality care for children.",
-    },
-    {
-      img: "./../images/im (3).png",
-      name: "Dr. Michael Davis",
-      job: "Surgeon",
-      detail:
-        "Dr. Michael Davis is a skilled surgeon specializing in minimally invasive procedures.",
-    },
-    {
-      img: "./../images/im (4).png",
-      name: "Dr. Sarah Thompson",
-      job: "Dermatologist",
-      detail:
-        "Dr. Sarah Thompson is a renowned dermatologist known for her expertise in skin care.",
-    },
-    {
-      img: "./../images/im (5).png",
-      name: "Dr. Jennifer Lee",
-      job: "Dermatologist",
-      detail:
-        "Dr. Jennifer Lee is a renowned dermatologist known for her expertise in skin care.",
-    },
-    {
-      img: "./../images/im (6).png",
-      name: "Dr. David Wilson",
-      job: "Family Physician",
-      detail:
-        "Dr. John Smith is a highly skilled cardiologist with 20+years of experience.",
-    },
-  ];
   return (
     <Fragment>
       <Layout title="About" description="About Desc" hideFooter={true}>
@@ -82,8 +38,10 @@ const About = () => {
         <section className="py-16 bg-gray-50">
   <Container>
     <div className="text-center mb-10">
-      <h5 className="font-medium text__48 text-MDarkgreen">Featured Destinations</h5>
-      <p className="text-gray-600 mt-3 max-w-2xl mx-auto">Explore these breathtaking locations for your next adventure</p>
+      <h5 className="font-medium text__48 text-MDarkgreen">Me in pictures</h5>
+      <p className="text-gray-600 mt-3 max-w-2xl mx-auto">ChatGPT said:
+Reasoned for 7 seconds
+"I've been fortunate to work as a travel agent in a variety of exciting settings—from bustling airports to luxurious cruise terminals and beyond. Take a look at the gallery below to see snapshots of my story</p>
     </div>
     
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
