@@ -64,7 +64,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
 
             <div className="flex items-center gap-3">
               <img
-                src="./../images/avatar.png"
+                src="./../images/sonia-medrano.png"
                 className="w-[48px] h-[48px] rounded-full object-cover"
                 alt=""
               />
@@ -91,7 +91,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
 
             <div className="flex items-center gap-3">
               <img
-                src="./../images/avatar.png"
+                src="./../images/daniel-reyes.png"
                 className="w-[48px] h-[48px] rounded-full object-cover"
                 alt=""
               />
@@ -117,7 +117,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
 
             <div className="flex items-center gap-3">
               <img
-                src="./../images/avatar.png"
+                src="./../images/isabela-moreno.png"
                 className="w-[48px] h-[48px] rounded-full object-cover"
                 alt=""
               />
