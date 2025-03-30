@@ -146,17 +146,17 @@ const SecStep = ({
             className="flex items-center justify-center mt-[3rem] gap-3"
           >
             <a
-              href="#!"
+              href="tel:+13054489987"
               className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3 border !border-[rgba(0,118,96,0.2)]"
             >
-              <span>Sign Up</span>
+              <span>Call</span>
             </a>
             <a
-              href="#!"
+              href="https://wa.me/+13054489987"
               className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3"
             >
               <div className="flex items-center gap-2">
-                <span>Learn More</span>
+                <span>Chat</span>
                 <img src="./../images/sdsads.svg" alt="" />
               </div>
             </a>
