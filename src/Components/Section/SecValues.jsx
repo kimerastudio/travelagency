@@ -5,12 +5,12 @@ const SecValues = () => {
 
     const dataFaq = [
         {
-            title: "Our mission",
-            desc: `Our mission is to bridge the gap between individuals and healthcare by delivering accessible and accurate health information, connecting users with qualified healthcare professionals, and promoting proactive.`
+            title: "Integrity & Transparency",
+            desc: `I believe in building trust through honesty and clear communication. Every decision, every deal is made with your best interests at heart. You can count on me to provide straightforward, reliable advice and ethical service at every step of your journey.`
         },
         {
-            title: "Our goal",
-            desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`
+            title: "Personalized Service & Passion",
+            desc: `Travel is a personal adventure, and I treat every client as unique. Drawing from my extensive global experiences and genuine passion for exploration, I craft tailor-made travel experiences that resonate with your dreams and preferences. Your journey is my journey—let's make it unforgettable.`
         },
     ]
 
@@ -29,8 +29,8 @@ const SecValues = () => {
                 <Container>
                     <Row>
                         <Col md={6}>
-                            <h5 className='font-medium text__48 mb-2'>Our Values</h5>
-                            <p className='text__16 text-Msecondary leading-relaxed'>Our core value lies in promoting inclusivity, accessibility, and patient empowerment. </p>
+                            <h5 className='font-medium text__48 mb-2'>My Values</h5>
+                            <p className='text__16 text-Msecondary leading-relaxed'>Travel with integrity, explore with passion. </p>
                         </Col>
                         <Col md={6}>
                             <div className="flex flex-wrap">

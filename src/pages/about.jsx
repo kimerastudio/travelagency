@@ -80,7 +80,8 @@ const About = () => {
 
         <SecValues />
 
-        <section>
+        
+        { /*<section>
           <Container>
             <div className="text-center mb-[2rem]">
               <h5 className="font-medium text__48 mb-2">
@@ -116,7 +117,7 @@ const About = () => {
               </Col>
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         <section>
           <Container>
