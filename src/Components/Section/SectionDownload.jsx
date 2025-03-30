@@ -5,10 +5,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const SectionDownload = ({
-  title = "Improve your health today",
-  desc = ` Experience top-quality healthcare services designed to meet
-              <br class="xs:block hidden" /> your unique needs.`,
-  btnTitle = "Download the App",
+  title = "Ready for liftoff?",
+  desc = ` Let's take a flight to
+              <br class="xs:block hidden" /> WhatsApp`,
+  btnTitle = "Start chatting",
   enableAOS = false,
 }) => {
   const originalUrl = useHostname();
