@@ -103,7 +103,9 @@ const Navbar = ({ enableAOS }) => {
                   305 448 9987
                 </Link>
                 <Link
-                  href="/auth/sign-up"
+                  href="https://wa.me/+13054489987"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={
                     "text-Mgreen font-medium text__14 px-4 py-2 border rounded-[6px] " +
                     (careers.includes(router.pathname)
@@ -183,7 +185,9 @@ const Navbar = ({ enableAOS }) => {
                   305 448 9987
                 </Link>
                 <Link
-                  href="/auth/sign-up"
+                  href="https://wa.me/+13054489987"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={
                     "text-Mgreen font-medium text__14 px-4 py-2 border rounded-[6px] " +
                     (careers.includes(router.pathname)
