@@ -90,7 +90,7 @@ const Index = () => {
               data-aos-delay="100"
               className="font-medium text__48 mb-2 text-center"
             >
-              Unlock the best flight deals{" "}
+              Unlock the best travel deals{" "}
               <br className="md:block hidden" /> with me
             </h2>
             <p
