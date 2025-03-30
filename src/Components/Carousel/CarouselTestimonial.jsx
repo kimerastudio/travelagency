@@ -122,7 +122,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
                 alt=""
               />
               <div className="">
-                <h5 className="font-semibold text__16">Isabela Moreno</h5>
+                <h5 className="font-semibold text__16">Isabella Moreno</h5>
                 <p className="text__14 text-[#737373]">Madrid, Spain</p>
               </div>
             </div>

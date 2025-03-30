@@ -39,7 +39,7 @@ const About = () => {
           <Container>
             <div className="text-center mb-10">
               <h5 className="font-medium text__48 text-MDarkgreen">Me in Pictures</h5>
-              <p className="text-gray-600 mt-3 max-w-2xl mx-auto">I've been fortunate to work as a travel agent in a variety of exciting settings—from bustling airports to luxurious cruise terminals and beyond. Take a look at the gallery below to see snapshots of my story</p>
+              <p className="text-gray-600 mt-3 max-w-2xl mx-auto">I've been fortunate to work as a travel agent in a variety of exciting settings—from bustling airports to luxurious cruise terminals and beyond. Take a look at the gallery below to see snapshots of my story.</p>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
