@@ -1,36 +1,16 @@
-import Head from 'next/head';
 import React, { Fragment } from "react";
+import { useHostname } from "@/Components/Provider/HostnameProvider";
+import { Col, Container, Row } from "react-bootstrap";
 import Layout from "@/Components/Layout/Layout";
-import { Container, Row, Col } from "react-bootstrap";
-import SectionDownload from "@/Components/Section/SectionDownload";
 import SecData from "@/Components/Section/SecData";
 import SecValues from "@/Components/Section/SecValues";
-import useHostname from "@/Components/Provider/HostnameProvider";
+import SectionDownload from "@/Components/Section/SectionDownload";
 
 const About = () => {
-  const { originalUrl } = useHostname();
+  const originalUrl = useHostname();
 
   return (
     <Fragment>
-      <Head>
-        <title>About - Carlito's Way to Travel</title>
-        <meta name="description" content="Learn more about Carlos, your dedicated travel agent providing personalized service and expert guidance." />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://carlitoswaytotravel.com/about" />
-        <meta property="og:title" content="About - Carlito's Way to Travel" />
-        <meta property="og:description" content="Learn more about Carlos, your dedicated travel agent providing personalized service and expert guidance." />
-        <meta property="og:image" content={`${originalUrl}/images/og.jpg`} />
-        
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://carlitoswaytotravel.com/about" />
-        <meta property="twitter:title" content="About - Carlito's Way to Travel" />
-        <meta property="twitter:description" content="Learn more about Carlos, your dedicated travel agent providing personalized service and expert guidance." />
-        <meta property="twitter:image" content={`${originalUrl}/images/og.jpg`} />
-      </Head>
-      
       <Layout title="About" description="About Desc" hideFooter={true}>
         <section className="relative overflow-hidden bg-MDarkgreen">
           <img
@@ -40,9 +20,9 @@ const About = () => {
           />
           <Container className="relative z-[1]">
             <div className="text-white py-[60px] text-center">
-              <div className="text__14 font-medium inline-block text-MgreenSecond text-center px-6 py-2 rounded-md bg-[rgba(255,255,255,0.08)] border !border-[rgba(255,255,255,0.12)]">
+              <dv className="text__14 font-medium inline-block text-MgreenSecond text-center px-6 py-2 rounded-md bg-[rgba(255,255,255,0.08)] border !border-[rgba(255,255,255,0.12)]">
                 About Me
-              </div>
+              </dv>
               <h2 className="font-medium text__48 mt-3 text-center">
                 Get to know{" "}
                 <br className="sm:block hidden" /> your travel agent
