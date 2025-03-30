@@ -48,7 +48,7 @@ const SecStep = ({
               <div className="flex gap-3 md:block">
                 <div className="w-[48px] ss:w-[64px] h-[48px] ss:h-[64px] flex-shrink-0 bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center mx-auto relative z-[1]">
                   <img
-                    src="./../images/ica (1).svg"
+                    src="./../images/magnifying-glass.svg"
                     className="ss:w-auto w-[32px]"
                     alt=""
                   />
@@ -74,7 +74,7 @@ const SecStep = ({
               <div className="flex gap-3 md:block">
                 <div className="w-[48px] ss:w-[64px] h-[48px] ss:h-[64px] flex-shrink-0 bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center mx-auto relative z-[1]">
                   <img
-                    src="./../images/ica (4).svg"
+                    src="./../images/map-trifold.svg"
                     className="ss:w-auto w-[32px]"
                     alt=""
                   />
@@ -99,7 +99,7 @@ const SecStep = ({
               <div className="flex gap-3 md:block">
                 <div className="w-[48px] ss:w-[64px] h-[48px] ss:h-[64px] flex-shrink-0 bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center mx-auto relative z-[1]">
                   <img
-                    src="./../images/ica (3).svg"
+                    src="./../images/ticket.svg"
                     className="ss:w-auto w-[32px]"
                     alt=""
                   />
@@ -122,7 +122,7 @@ const SecStep = ({
               <div className="flex gap-3 md:block">
                 <div className="w-[48px] ss:w-[64px] h-[48px] ss:h-[64px] flex-shrink-0 bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center mx-auto relative z-[1]">
                   <img
-                    src="./../images/ica (2).svg"
+                    src="./../images/headset.svg"
                     className="ss:w-auto w-[32px]"
                     alt=""
                   />
