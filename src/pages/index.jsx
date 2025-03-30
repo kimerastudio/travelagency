@@ -191,6 +191,7 @@ const Index = () => {
           </Container>
         </section>
 
+        {/* Vacation packages section commented out
         <section>
           <Container>
             <Row className="justify-between gap-y-6">
@@ -262,6 +263,7 @@ const Index = () => {
             </Row>
           </Container>
         </section>
+        */}
 
         {/* Healthcare section commented out
         <section>
