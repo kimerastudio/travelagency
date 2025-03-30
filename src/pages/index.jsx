@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import Layout from "@/Components/Layout/Layout";
 import { Col, Container, Row } from "react-bootstrap";
-import SectionFaq from "@/Components/Section/SectionFaq";
 import SectionDownload from "@/Components/Section/SectionDownload";
 import SectionTestimonial from "@/Components/Section/SectionTestimonial";
 import SecStep from "@/Components/Section/SecStep";
@@ -313,8 +312,6 @@ const Index = () => {
         <SecStep enableAOS={true} />
 
         <SectionTestimonial enableAOS={true} />
-
-        <SectionFaq enableAOS={true} />
 
         <SectionDownload enableAOS={true} />
       </Layout>
