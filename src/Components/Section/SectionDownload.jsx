@@ -67,7 +67,7 @@ const SectionDownload = ({
                 data-aos-offset={offset}
                 data-aos={enableAOS ? "zoom-in" : ""}
                 data-aos-delay={enableAOS ? "300" : ""}
-                href="#!"
+                href="https://wa.me/+13054489987"
                 className="inline-block px-4 py-3 rounded-[12px] bg-[rgba(255,255,255,0.08)] text-white border !border-[rgba(255,255,255,0.12)] font-medium text__16"
               >
                 <div className="flex gap-2">

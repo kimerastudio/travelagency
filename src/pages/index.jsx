@@ -48,7 +48,7 @@ const Index = () => {
                 <a
                   data-aos="fade-left"
                   data-aos-delay="400"
-                  href="#!"
+                  href="https://wa.me/+13054489987"
                   className="inline-block px-4 py-3 rounded-[12px] bg-Mgreen text-white font-medium text__16"
                 >
                   <div className="flex gap-2">
@@ -241,7 +241,7 @@ const Index = () => {
 
                 <div className="mt-[2rem]">
                   <a
-                    href="#!"
+                    href="https://wa.me/+13054489987"
                     className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3 border !border-[rgba(0,118,96,0.2)]"
                   >
                     <div className="flex items-center gap-2">
