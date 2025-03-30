@@ -1,15 +1,36 @@
-import React, { Fragment } from 'react'
-import Layout from '@/Components/Layout/Layout'
-import { Col, Container, Row } from 'react-bootstrap'
-import { useHostname } from '@/Components/Provider/HostnameProvider';
+import Head from 'next/head';
+import React, { Fragment } from 'react';
+import Layout from '@/Components/Layout/Layout';
+import { Col, Container, Row } from 'react-bootstrap';
+import useHostname from '@/Components/Provider/HostnameProvider';
 import { ArrowRightSvg } from '@/Components/svg/Svg';
 import SectionFaq from '@/Components/Section/SectionFaq';
 import SectionDownload from '@/Components/Section/SectionDownload';
 
 const Services = () => {
-    const originalUrl = useHostname();
+    const { originalUrl } = useHostname();
+
     return (
         <Fragment>
+            <Head>
+                <title>Services - Carlito's Way to Travel</title>
+                <meta name="description" content="Discover the range of travel services offered by your personal travel agent including flights, hotels, and vacation packages." />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://carlitoswaytotravel.com/services" />
+                <meta property="og:title" content="Services - Carlito's Way to Travel" />
+                <meta property="og:description" content="Discover the range of travel services offered by your personal travel agent including flights, hotels, and vacation packages." />
+                <meta property="og:image" content={`${originalUrl}/images/og.jpg`} />
+
+                {/* Twitter */}
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://carlitoswaytotravel.com/services" />
+                <meta property="twitter:title" content="Services - Carlito's Way to Travel" />
+                <meta property="twitter:description" content="Discover the range of travel services offered by your personal travel agent including flights, hotels, and vacation packages." />
+                <meta property="twitter:image" content={`${originalUrl}/images/og.jpg`} />
+            </Head>
+
             <Layout title="Services" description="Services Desc" hideFooter={true}>
                 <section className='relative overflow-hidden bg-MDarkgreen'>
                     <img src={originalUrl + "/images/Group 2.png"} className='absolute left-0 top-0 w-full h-full' alt="" />
@@ -93,7 +114,7 @@ const Services = () => {
                 <SectionDownload enableAOS={true} />
             </Layout>
         </Fragment>
-    )
-}
+    );
+};
 
-export default Services
+export default Services;

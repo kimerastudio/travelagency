@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React, { Fragment, useEffect } from "react";
 import Layout from "@/Components/Layout/Layout";
 import { Col, Container, Row } from "react-bootstrap";
@@ -10,7 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Index = () => {
-  const originalUrl = useHostname();
+  const { originalUrl } = useHostname();
 
   useEffect(() => {
     // Inisialisasi AOS hanya jika enableAOS bernilai true
@@ -19,8 +20,28 @@ const Index = () => {
       duration: 500,
     });
   }, []);
+
   return (
     <Fragment>
+      <Head>
+        <title>Carlito's Way to Travel - Your Personal Travel Agent</title>
+        <meta name="description" content="Find the best flights, vacations, and hotels with personalized service through WhatsApp." />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://carlitoswaytotravel.com/" />
+        <meta property="og:title" content="Carlito's Way to Travel - Your Personal Travel Agent" />
+        <meta property="og:description" content="Find the best flights, vacations, and hotels with personalized service through WhatsApp." />
+        <meta property="og:image" content={`${originalUrl}/images/og.jpg`} />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://carlitoswaytotravel.com/" />
+        <meta property="twitter:title" content="Carlito's Way to Travel - Your Personal Travel Agent" />
+        <meta property="twitter:description" content="Find the best flights, vacations, and hotels with personalized service through WhatsApp." />
+        <meta property="twitter:image" content={`${originalUrl}/images/og.jpg`} />
+      </Head>
+
       <Layout enableAOS={true} hideFooter={true}>
         <section>
           <Container>
