@@ -137,7 +137,7 @@ const Navbar = ({ enableAOS }) => {
                     (careers.includes(router.pathname) ? "text-white" : "")
                   }
                 >
-                  Healify
+                  Carlos Terrazos
                 </h5>
               </Link>
 

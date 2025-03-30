@@ -143,7 +143,7 @@ const Footer = ({ enableAOS = false }) => {
 
           <div className="flex md:flex-nowrap flex-wrap gap-y-6 items-center justify-center md:justify-between relative">
             <p className="text__14 text-white opacity-60 md:w-auto w-full text-center">
-              © 2024 Healify. All rights reserved.
+              © 2025 Carlos Terrazos. All rights reserved.
             </p>
 
             <div className="flex items-center gap-3 md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
