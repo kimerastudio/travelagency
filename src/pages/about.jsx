@@ -66,7 +66,7 @@ const About = () => {
           <Container className="relative z-[1]">
             <div className="text-white py-[60px] text-center">
               <dv className="text__14 font-medium inline-block text-MgreenSecond text-center px-6 py-2 rounded-md bg-[rgba(255,255,255,0.08)] border !border-[rgba(255,255,255,0.12)]">
-                About Us
+                About Me
               </dv>
               <h2 className="font-medium text__48 mt-3 text-center">
                 Promoting health and wellness through{" "}

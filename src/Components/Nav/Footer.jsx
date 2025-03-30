@@ -93,7 +93,7 @@ const Footer = ({ enableAOS = false }) => {
                   href="/about"
                   className="text__16 normal text-white opacity-60"
                 >
-                  About Us
+                  About Me
                 </Link>
                 <Link
                   href="/careers"

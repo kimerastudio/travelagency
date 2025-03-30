@@ -91,7 +91,7 @@ const Index = () => {
               data-aos-delay="100"
               className="font-medium text__48 mb-2 text-center"
             >
-              Unlock the best fligh deals{" "}
+              Unlock the best flight deals{" "}
               <br className="md:block hidden" /> with me
             </h2>
             <p
@@ -246,7 +246,7 @@ const Index = () => {
                     className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3 border !border-[rgba(0,118,96,0.2)]"
                   >
                     <div className="flex items-center gap-2">
-                      <span>Learn More</span>
+                      <span>Chat on WhatsApp</span>
                       <img src="./../images/sdsads.svg" alt="" />
                     </div>
                   </a>

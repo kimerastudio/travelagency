@@ -56,7 +56,7 @@ const Navbar = ({ enableAOS }) => {
                     : "text-Mblack")
                 }
               >
-                About Us
+                About Me
               </Link>
             </li>
             <div
@@ -151,7 +151,7 @@ const Navbar = ({ enableAOS }) => {
                       : "text-Mblack")
                   }
                 >
-                  About Us
+                  About Me
                 </Link>
                 <Link
                   href="/services"
@@ -250,7 +250,7 @@ const Navbar = ({ enableAOS }) => {
                           : "text-Mblack")
                       }
                     >
-                      Our About Us
+                      Our About Me
                     </h5>
                     <p
                       className={
