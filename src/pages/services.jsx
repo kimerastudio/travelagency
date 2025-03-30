@@ -91,6 +91,8 @@ const Services = () => {
                 <SectionFaq />
 
                 <SectionDownload enableAOS={true} />
+
+                <div className="w-full h-[40px] bg-[#091C1E]"></div>
             </Layout>
         </Fragment>
     )

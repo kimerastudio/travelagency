@@ -113,6 +113,9 @@ const About = () => {
         </section>
 
         <SectionDownload enableAOS={true} />
+        
+        {/* Simple empty footer */}
+        <div className="w-full h-[40px] bg-[#091C1E]"></div>
       </Layout>
     </Fragment>
   );

@@ -191,131 +191,13 @@ const Index = () => {
           </Container>
         </section>
 
-        {/* Vacation packages section commented out
-        <section>
-          <Container>
-            <Row className="justify-between gap-y-6">
-              <Col
-                data-aos="fade-right"
-                data-aos-delay="200"
-                md={5}
-                className="my-auto md:!order-1 order-2"
-              >
-                <h2 className="font-medium text__48 mb-2">
-                Discover your perfect vacation package today
-                </h2>
-                <p className="text__18 text-[#737373] leading-relaxed mb-3">
-                I curate unique vacation experiences tailored to your preferences. 
-                Whether you seek adventure, relaxation, or cultural immersion, we have the ideal package for you.
-                </p>
-
-                <div className="flex flex-wrap gap-4">
-                  <div className="w-full">
-                    <div className="flex items-start gap-3">
-                      <img src="./../images/icon.svg" alt="" />
-
-                      <div className="">
-                        <h5 className="font-medium text__20 mt-1 mb-2">
-                        Adventure Awaits
-                        </h5>
-                        <p className="text__18 text-[#737373] leading-relaxed">
-                        Experience thrilling excursions and unforgettable journeys designed just for you.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full">
-                    <div className="flex items-start gap-3">
-                      <img src="./../images/icon.svg" alt="" />
-
-                      <div className="">
-                        <h5 className="font-medium text__20 mt-1 mb-2">
-                        Relax and Unwind
-                        </h5>
-                        <p className="text__18 text-[#737373] leading-relaxed">
-                        Indulge in serene getaways that rejuvenate your spirit and refresh your mind.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-[2rem]">
-                  <a
-                    href="https://wa.me/+13054489987"
-                    className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3 border !border-[rgba(0,118,96,0.2)]"
-                  >
-                    <div className="flex items-center gap-2">
-                      <span>Chat on WhatsApp</span>
-                      <img src="./../images/sdsads.svg" alt="" />
-                    </div>
-                  </a>
-                </div>
-              </Col>
-              <Col
-                data-aos="fade-left"
-                data-aos-delay="200"
-                md={6}
-                className="my-auto order-1 md:!order-2"
-              >
-                <img src="./../images/Vector.png" alt="" />
-              </Col>
-            </Row>
-          </Container>
-        </section>
-        */}
-
-        {/* Healthcare section commented out
-        <section>
-          <Container>
-            <Row className="justify-between gap-y-6">
-              <Col
-                data-aos="fade-right"
-                data-aos-delay="200"
-                md={6}
-                className="my-auto"
-              >
-                <img src="./../images/sadasda.png" alt="" />
-              </Col>
-              <Col
-                data-aos="fade-left"
-                data-aos-delay="200"
-                md={5}
-                className="my-auto"
-              >
-                <h2 className="font-medium text__48 mb-2">
-                  Revolutionizing healthcare with state-of-the-art solutions
-                </h2>
-                <p className="text__18 text-[#737373] leading-relaxed">
-                  At our company, we take a unique approach to healthcare
-                  services, focusing on innovation and patient-centered care.
-                  Our team of experts is dedicated to revolutionizing the way
-                  healthcare is delivered, ensuring that every patient receives
-                  the best possible care.
-                </p>
-
-                <div className="mt-[2rem]">
-                  <a
-                    href="#!"
-                    className="inline-block font-medium text__16 text-Mgreen px-[1.5rem] rounded-[8px] py-3 border !border-[rgba(0,118,96,0.2)]"
-                  >
-                    <div className="flex items-center gap-2">
-                      <span>Learn More</span>
-                      <img src="./../images/sdsads.svg" alt="" />
-                    </div>
-                  </a>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-        */}
-
         <SecStep enableAOS={true} />
 
         <SectionTestimonial enableAOS={true} />
 
         <SectionDownload enableAOS={true} />
+        
+        <div className="w-full h-[40px] bg-[#091C1E]"></div>
       </Layout>
     </Fragment>
   );
