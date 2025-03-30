@@ -5,12 +5,10 @@ import Head from "next/head";
 
 const Layout = ({
   children,
-  navbar = true,
-  footer = true,
   title = "Healify",
   description = "Healify Desc",
-  auth = false,
   enableAOS = false,
+  hideFooter = false,
 }) => {
   return (
     <Fragment>
@@ -27,26 +25,9 @@ const Layout = ({
         />
       </Head>
 
-      <div className="w-full overflow-hidden">
-        {navbar ? <Navbar enableAOS={enableAOS} /> : ""}
-        <div className={auth ? "" : "pt-[40px]"}>{children}</div>
-        {footer ? <Footer enableAOS={enableAOS} /> : ""}
-      </div>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"
-        crossorigin
-      ></script>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
-        crossorigin
-      ></script>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin
-      ></script>
+      <Navbar enableAOS={enableAOS} />
+      <main>{children}</main>
+      {!hideFooter && <Footer />}
     </Fragment>
   );
 };

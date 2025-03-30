@@ -10,7 +10,7 @@ const Services = () => {
     const originalUrl = useHostname();
     return (
         <Fragment>
-            <Layout title='Services' description='Service Desc'>
+            <Layout title="Services" description="Services Desc" hideFooter={true}>
                 <section className='relative overflow-hidden bg-MDarkgreen'>
                     <img src={originalUrl + "/images/Group 2.png"} className='absolute left-0 top-0 w-full h-full' alt="" />
                     <Container className='relative z-[1]'>
@@ -90,7 +90,7 @@ const Services = () => {
 
                 <SectionFaq />
 
-                <SectionDownload />
+                <SectionDownload enableAOS={true} />
             </Layout>
         </Fragment>
     )

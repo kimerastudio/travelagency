@@ -55,7 +55,7 @@ const About = () => {
   ];
   return (
     <Fragment>
-      <Layout title="About" description="About Desc">
+      <Layout title="About" description="About Desc" hideFooter={true}>
         <section className="relative overflow-hidden bg-MDarkgreen">
           <img
             src={originalUrl + "/images/Group 2.png"}

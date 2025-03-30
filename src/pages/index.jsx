@@ -21,7 +21,7 @@ const Index = () => {
   }, []);
   return (
     <Fragment>
-      <Layout enableAOS={true}>
+      <Layout enableAOS={true} hideFooter={true}>
         <section>
           <Container>
             <Row className="gap-y-6">
