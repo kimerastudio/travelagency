@@ -79,45 +79,6 @@ const About = () => {
 
         <SecValues />
 
-        
-        { /*<section>
-          <Container>
-            <div className="text-center mb-[2rem]">
-              <h5 className="font-medium text__48 mb-2">
-                Meet our expert team
-              </h5>
-              <p className="text__16 text-Msecondary leading-relaxed">
-                Our team consists of dedicated healthcare professionals, medical
-                writers, and technology experts <br className="lg:block hidden" /> who work tirelessly to
-                create and curate trustworthy and evidence-based content.
-              </p>
-            </div>
-
-            <Row className="justify-center">
-              <Col lg={10}>
-                <Row className="gap-y-6">
-                  {dataUser.map((obj) => {
-                    return (
-                      <Col sm={6} md={4} className="text-center">
-                        <img
-                          src={obj.img}
-                          className="w-[100px] lg:w-[145px] h-[100px] lg:h-[145px] rounded-full object-cover mx-auto mb-3"
-                          alt=""
-                        />
-                        <h4 className="text__18 font-semibold">{obj.name}</h4>
-                        <p className="text__14 text-Msecondary mb-3">
-                          {obj.job}
-                        </p>
-                        <p className="text__14">{obj.detail}</p>
-                      </Col>
-                    );
-                  })}
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </section> */}
-
         <section>
           <Container>
             <div className="text-center mb-[2rem]">
@@ -155,8 +116,7 @@ const About = () => {
           </Container>
         </section>
 
-        <SectionDownload title="We're hiring!" desc={`Join our team of healthcare professionals and make a
-                <br class="ss:block hidden" /> difference.`} btnTitle=" Join Now" />
+        <SectionDownload enableAOS={true} />
       </Layout>
     </Fragment>
   );
