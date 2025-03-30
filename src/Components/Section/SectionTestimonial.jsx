@@ -24,7 +24,7 @@ const SectionTestimonial = ({ enableAOS = false }) => {
               data-aos-delay={enableAOS ? "100" : ""}
               className="font-medium text__48 mb-2 text-center"
             >
-              What my clients say
+              Don't take my word for it
             </h2>
             <p
               data-aos={enableAOS ? "fade-up" : ""}

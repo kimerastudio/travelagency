@@ -17,7 +17,7 @@ const Services = () => {
 
                         <div className="text-white py-[60px] text-center">
                             <dv className='text__14 font-medium inline-block text-MgreenSecond text-center px-6 py-2 rounded-md bg-[rgba(255,255,255,0.08)] border !border-[rgba(255,255,255,0.12)]'>Services</dv>
-                            <h2 className='font-medium text__48 mt-3 text-center'>Comprehensive Health Care <br className='ss:block hidden' /> Services</h2>
+                            <h2 className='font-medium text__48 mt-3 text-center'>How I can help you have an unforgetable traveling experience <br className='ss:block hidden' /> Services</h2>
                         </div>
 
                     </Container>
@@ -34,9 +34,8 @@ const Services = () => {
                                     <img src="./../images/FirstAidKit.svg" alt="" />
                                 </div>
 
-                                <h2 className='font-medium text__46 mb-3'>Preventive care</h2>
-                                <p className='text__18 leading-relaxed text-Msecondary mb-3'>we understand the importance of preventive care in maintaining optimal health. Our dedicated team of healthcare professionals offers comprehensive preventive care services to help you identify potential health risks, detect early signs of diseases, and develop personalized preventive care plans.</p>
-                                <p className='text__18 leading-relaxed text-Msecondary'>From routine check-ups and vaccinations to screenings and lifestyle counseling, we are committed to keeping you and your loved ones healthy and thriving.</p>
+                                <h2 className='font-medium text__46 mb-3'>Finding the Best Flight for You </h2>
+                                <p className='text__18 leading-relaxed text-Msecondary mb-3'> Using specialized tools exclusive to licensed travel professionals, I unlock prices you wouldn't normally find on your own. I work closely with you to secure the best flight options tailored to your schedule and budget, and I’m always here to support you in case of any travel hiccups.</p>
 
                                 <a href="#!" className='mt-[2rem] inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
                                     <div className="flex gap-2">
