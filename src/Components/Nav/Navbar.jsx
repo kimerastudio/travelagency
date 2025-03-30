@@ -100,7 +100,7 @@ const Navbar = ({ enableAOS }) => {
                       : "text-Mblack border !border-[rgba(0,0,0,0.2)]")
                   }
                 >
-                  Sign In
+                  305 448 9987
                 </Link>
                 <Link
                   href="/auth/sign-up"
@@ -111,7 +111,7 @@ const Navbar = ({ enableAOS }) => {
                       : "bg-Mgreen text-white")
                   }
                 >
-                  Create Account
+                  Start a Chat
                 </Link>
               </div>
             </li>
@@ -176,7 +176,7 @@ const Navbar = ({ enableAOS }) => {
                       : "text-Mgreen")
                   }
                 >
-                  Sign In
+                  305 448 9987
                 </Link>
                 <Link
                   href="/auth/sign-up"
@@ -187,7 +187,7 @@ const Navbar = ({ enableAOS }) => {
                       : "!border-[rgba(0,118,96,0.2)] hover:bg-Mgreen hover:text-white hover:!border-Mgreen")
                   }
                 >
-                  Create Account
+                  Start a Chat
                 </Link>
               </div>
 
