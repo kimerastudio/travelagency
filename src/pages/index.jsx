@@ -181,7 +181,7 @@ const Index = () => {
                         Personalized Service
                         </h5>
                         <p className="text__18 text-[#737373]">
-                        Experience a customized approach to finding your ideal flights.
+                        I work with you in a way no travel app or platform can. I care about your travel experience.
                         </p>
                       </div>
                     </div>
