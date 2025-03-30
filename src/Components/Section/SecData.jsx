@@ -36,7 +36,7 @@ const SecData = () => {
                             </div>
 
                             <div className="pl-4 py-3">
-                                <h5 className='font-medium text__48 mb-2'>5000+</h5>
+                                <h5 className='font-medium text__48 mb-2'>1000+</h5>
                                 <p className='text__16 text-Msecondary leading-relaxed'>Satisfied customers</p>
                             </div>
                         </Col>

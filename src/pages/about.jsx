@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { useHostname } from "@/Components/Provider/HostnameProvider";
 import { Col, Container, Row } from "react-bootstrap";
 import Layout from "@/Components/Layout/Layout";
-import SectionTestimonial from "@/Components/Section/SectionTestimonial";
 import SecData from "@/Components/Section/SecData";
 import SecValues from "@/Components/Section/SecValues";
 import SectionDownload from "@/Components/Section/SectionDownload";
@@ -155,8 +154,6 @@ const About = () => {
             </div>
           </Container>
         </section>
-
-        <SectionTestimonial />
 
         <SectionDownload title="We're hiring!" desc={`Join our team of healthcare professionals and make a
                 <br class="ss:block hidden" /> difference.`} btnTitle=" Join Now" />
