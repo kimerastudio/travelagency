@@ -62,12 +62,12 @@ const Services = () => {
                                 </a>
                             </Col>
                             <Col md={6} className='my-auto order-1 md:!order-2'>
-                                <img src="./../images/sadasda.png" alt="" />
+                                <img src="./../images/transportation.png" alt="" />
                             </Col>
                         </Row>
                         <Row className='gap-y-6'>
                             <Col md={6} className='my-auto'>
-                                <img src="./../images/asdsad.png" alt="" />
+                                <img src="./../images/hotel.png" alt="" />
                             </Col>
                             <Col md={6} className='my-auto'>
                                 <div className="mb-4 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">

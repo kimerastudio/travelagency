@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const SectionDownload = ({
   title = "Ready for liftoff?",
   desc = ` Let's take a flight to
-              <br class="xs:block hidden" /> WhatsApp`,
+              <br class="xs:block hidden" /> WhatsApp airport`,
   btnTitle = "Start chatting",
   enableAOS = false,
 }) => {
