@@ -17,7 +17,7 @@ const Services = () => {
 
                         <div className="text-white py-[60px] text-center">
                             <dv className='text__14 font-medium inline-block text-MgreenSecond text-center px-6 py-2 rounded-md bg-[rgba(255,255,255,0.08)] border !border-[rgba(255,255,255,0.12)]'>Services</dv>
-                            <h2 className='font-medium text__48 mt-3 text-center'>How I can help you have an unforgetable traveling experience <br className='ss:block hidden' /> Services</h2>
+                            <h2 className='font-medium text__48 mt-3 text-center'>How I can help you have <br className='ss:block hidden' /> an unforgetable traveling experience</h2>
                         </div>
 
                     </Container>
