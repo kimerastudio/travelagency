@@ -43,10 +43,42 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
   };
   return (
     <Fragment>
+      {/* Add styles for carousel arrows */}
+      <style jsx>{`
+        .carousel-wrapper .slick-prev,
+        .carousel-wrapper .slick-next {
+          z-index: 10;
+          width: 30px;
+          height: 30px;
+          background: #007660;
+          border-radius: 50%;
+        }
+
+        .carousel-wrapper .slick-prev {
+          left: -15px;
+        }
+
+        .carousel-wrapper .slick-next {
+          right: -15px;
+        }
+
+        .carousel-wrapper .slick-prev:hover,
+        .carousel-wrapper .slick-next:hover {
+          background: #00594A;
+        }
+
+        .carousel-wrapper .slick-prev:before,
+        .carousel-wrapper .slick-next:before {
+          font-size: 20px;
+          opacity: 1;
+        }
+      `}</style>
+
+      {/* Added carousel-wrapper class */}
       <div
         data-aos={enableAOS ? "fade-right" : ""}
         data-aos-delay={enableAOS ? "400" : ""}
-        className="w-full"
+        className="carousel-wrapper w-full"
       >
         <Slider {...settings}>
           <div className="w-full p-4 ">
