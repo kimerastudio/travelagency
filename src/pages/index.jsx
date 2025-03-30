@@ -121,7 +121,7 @@ const Index = () => {
 
                     <div className="pl-4">
                       <div className="mt-3 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                        <img src="./../images/FirstAidKit.svg" alt="" />
+                        <img src="./../images/currency-dollar.svg" alt="" />
                       </div>
 
                       <div className="mt-[2rem]">
@@ -147,7 +147,7 @@ const Index = () => {
                     </div>
                     <div className="pl-4">
                       <div className="mt-3 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                        <img src="./../images/Heartbeat.svg" alt="" />
+                        <img src="./../images/piggy-bank.svg" alt="" />
                       </div>
 
                       <div className="mt-[2rem]">
@@ -173,7 +173,7 @@ const Index = () => {
                     </div>
                     <div className="pl-4">
                       <div className="mt-3 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                        <img src="./../images/FirstAid.svg" alt="" />
+                        <img src="./../images/user-circle-gear.svg" alt="" />
                       </div>
 
                       <div className="mt-[2rem]">
