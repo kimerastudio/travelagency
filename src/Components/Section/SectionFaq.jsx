@@ -24,24 +24,36 @@ const SectionFaq = ({
 
   const dataFaq = [
     {
-      title: "How do I schedule an appointment?",
-      desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`,
+      title: "Cruises",
+      desc: `Experience the magic of cruising with expertly arranged itineraries and exclusive deals. I help you choose the right cruise that fits your preferences, ensuring a luxurious, entertaining, and worry-free journey at sea.`,
     },
     {
-      title: "What insurance plans do you accept?",
-      desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`,
+      title: "Vacation Packages",
+      desc: `Let me create a seamless travel experience by bundling flights, hotels, tours, and more into one comprehensive vacation package. Enjoy the best value and a hassle-free trip with every detail carefully curated to suit your dream getaway.`,
     },
     {
-      title: "What procedures do you offer?",
-      desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`,
+      title: "Travel Insurance",
+      desc: `Your safety and peace of mind are my priorities. I assist in selecting the most appropriate travel insurance coverage to protect you from unforeseen events, so you can travel confidently knowing you’re covered.`,
     },
     {
-      title: "How can I prepare for a procedure?",
-      desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`,
+      title: "Tours and Excursions",
+      desc: `Enhance your travel experience with curated tours and excursions that delve deep into the heart of your destination. I design personalized local experiences—from guided cultural tours to adventurous outings—that cater to your interests and passions.`,
     },
     {
-      title: "What are the risks involved?",
-      desc: `To schedule an appointment, please contact our office during business hours. Our friendly staff will assist you in finding a convenient time.`,
+      title: "Visa and Passport Assistance",
+      desc: `Navigating international travel requirements can be daunting. I provide expert support with processing travel documents and visa applications, ensuring you have all the necessary paperwork in order for a smooth journey abroad.`,
+    },
+    {
+      title: "Airport Transfers",
+      desc: `Enjoy a stress-free start and finish to your trip with coordinated airport transfer services. Whether you need a shuttle, taxi, or private car, I arrange reliable transportation to seamlessly connect you between the airport and your destination.`,
+    },
+    {
+      title: "Travel Itineraries and Concierge Services",
+      desc: `From crafting bespoke itineraries to offering dedicated concierge services, I handle every detail of your journey. This means more time for you to relax and savor your travel experience, knowing that every aspect of your trip is expertly managed.`,
+    },
+    {
+      title: "Corporate Travel Management",
+      desc: `I specialize in organizing business travel that minimizes stress and maximizes productivity. From booking flights and accommodations to arranging meetings, conferences, and events, I ensure every detail is managed with professionalism and precision, so you can focus on what matters most.`,
     },
   ];
 
@@ -64,15 +76,15 @@ const SectionFaq = ({
               data-aos-delay={enableAOS ? "100" : ""}
               className="font-medium text__48 mb-2 text-center"
             >
-              FAQs
+              Additional Services
             </h2>
             <p
               data-aos={enableAOS ? "fade-up" : ""}
               data-aos-delay={enableAOS ? "200" : ""}
               className="text__18 text-Msecondary text-center"
             >
-              Find answers to common questions about our services,{" "}
-              <br className="xs:block hidden" /> insurance, and procedures.
+              Here are some additional ways{" "}
+              <br className="xs:block hidden" /> I can help with your traveling needs.
             </p>
           </div>
 

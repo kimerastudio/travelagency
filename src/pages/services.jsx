@@ -34,7 +34,7 @@ const Services = () => {
                                     <img src="./../images/FirstAidKit.svg" alt="" />
                                 </div>
 
-                                <h2 className='font-medium text__46 mb-3'>Finding the Best Flight for You </h2>
+                                <h2 className='font-medium text__46 mb-3'>Flight Booking </h2>
                                 <p className='text__18 leading-relaxed text-Msecondary mb-3'> Using specialized tools exclusive to licensed travel professionals, I unlock prices you wouldn't normally find on your own. I work closely with you to secure the best flight options tailored to your schedule and budget, and I’m always here to support you in case of any travel hiccups.</p>
 
                                 <a href="#!" className='mt-[2rem] inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
@@ -51,9 +51,8 @@ const Services = () => {
                                     <img src="./../images/Heartbeat.svg" alt="" />
                                 </div>
 
-                                <h2 className='font-medium text__46 mb-3'>Specialized treatments</h2>
-                                <p className='text__18 leading-relaxed text-Msecondary mb-3'>Our network of specialists consists of highly trained medical professionals who are experienced in their respective fields. Whether you require specialized treatments for chronic conditions, complex surgeries, or advanced procedures, we ensure that you receive the best possible care tailored to your unique needs. </p>
-                                <p className='text__18 leading-relaxed text-Msecondary'>Rest assured that our team is dedicated to delivering exceptional healthcare services with compassion and expertise.</p>
+                                <h2 className='font-medium text__46 mb-3'>Transportation</h2>
+                                <p className='text__18 leading-relaxed text-Msecondary mb-3'>Whether you need a reliable car rental, a comfortable train reservation, or timely bus tickets, I ensure your ground transportation is coordinated perfectly. I partner with trusted providers to offer you convenience and peace of mind from the moment you land until you reach your destination. </p>
 
                                 <a href="#!" className='mt-[2rem] inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
                                     <div className="flex gap-2">
@@ -75,9 +74,8 @@ const Services = () => {
                                     <img src="./../images/FirstAid.svg" alt="" />
                                 </div>
 
-                                <h2 className='font-medium text__46 mb-3'>Emergency care</h2>
-                                <p className='text__18 leading-relaxed text-Msecondary mb-3'>Our network includes emergency healthcare facilities equipped with advanced technology and staffed by experienced medical professionals. </p>
-                                <p className='text__18 leading-relaxed text-Msecondary'>From acute injuries and sudden illnesses to life-threatening emergencies, our goal is to ensure that you receive timely and efficient care to improve outcomes and save lives.</p>
+                                <h2 className='font-medium text__46 mb-3'>Hotel Booking</h2>
+                                <p className='text__18 leading-relaxed text-Msecondary mb-3'>I leverage my industry connections to scout a wide range of accommodations—from luxury hotels to cozy boutique stays. With competitive rates and personalized recommendations, I secure the ideal lodging that meets your comfort and convenience requirements. </p>
 
                                 <a href="#!" className='mt-[2rem] inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
                                     <div className="flex gap-2">
