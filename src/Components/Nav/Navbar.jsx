@@ -69,28 +69,6 @@ const Navbar = ({ enableAOS }) => {
             ></div>
             <li className="w-full">
               <Link
-                href="/contact"
-                onClick={() => setToogleMenuResponsive(!ToogleMenuResponsive)}
-                className={
-                  "font-medium " +
-                  (careers.includes(router.pathname)
-                    ? "text-white"
-                    : "text-Mblack")
-                }
-              >
-                Contact
-              </Link>
-            </li>
-            <div
-              className={
-                "w-full h-[1px] " +
-                (careers.includes(router.pathname)
-                  ? "bg-[#EAECF0] opacity-30"
-                  : "bg-[#EAECF0]")
-              }
-            ></div>
-            <li className="w-full">
-              <Link
                 href="/services"
                 onClick={() => setToogleMenuResponsive(!ToogleMenuResponsive)}
                 className={
@@ -101,175 +79,6 @@ const Navbar = ({ enableAOS }) => {
                 }
               >
                 Services
-              </Link>
-            </li>
-            <div
-              className={
-                "w-full h-[1px] " +
-                (careers.includes(router.pathname)
-                  ? "bg-[#EAECF0] opacity-30"
-                  : "bg-[#EAECF0]")
-              }
-            ></div>
-            <li className="w-full">
-              <div className="relative">
-                <div
-                  onClick={() => setToogleMenuCompany(!ToogleMenuCompany)}
-                  className={
-                    "font-medium flex items-center gap-2 cursor-pointer " +
-                    (careers.includes(router.pathname)
-                      ? "text-white"
-                      : "text-Mblack")
-                  }
-                >
-                  Company
-                  <div
-                    className={
-                      "transition-all duration-300 " +
-                      (ToogleMenuCompany ? "-rotate-180" : "")
-                    }
-                  >
-                    <ArrowDownSvg
-                      color={
-                        careers.includes(router.pathname) ? "white" : "#171717"
-                      }
-                    />
-                  </div>
-                </div>
-
-                <div
-                  className={
-                    "transition-all divide-trueGray-300 overflow-hidden " +
-                    (ToogleMenuCompany ? "max-h-screen" : "max-h-0")
-                  }
-                >
-                  <div className="grid grid-cols-1 gap-3 pt-3">
-                    <Link href="/about" className="flex items-start gap-3">
-                      <img
-                        src={
-                          originalUrl +
-                          (careers.includes(router.pathname)
-                            ? "/images/DiamondsFour1.svg"
-                            : "/images/DiamondsFour.svg")
-                        }
-                        alt=""
-                        className="w-[24px] h-[24px]"
-                      />
-                      <div className="">
-                        <h5
-                          className={
-                            "font-mono text-[16px] mb-1 " +
-                            (careers.includes(router.pathname)
-                              ? "text-white"
-                              : "text-Mblack")
-                          }
-                        >
-                          Our About Us
-                        </h5>
-                        <p
-                          className={
-                            "text-[14px] " +
-                            (careers.includes(router.pathname)
-                              ? "text-white opacity-70"
-                              : "text-[#737373]")
-                          }
-                        >
-                          Join Our Life-Saving Team.
-                        </p>
-                      </div>
-                    </Link>
-                    <Link href="/careers" className="flex items-start gap-3">
-                      <img
-                        src={
-                          originalUrl +
-                          (careers.includes(router.pathname)
-                            ? "/images/Toolbox1.svg"
-                            : "/images/Toolbox.svg")
-                        }
-                        alt=""
-                        className="w-[24px] h-[24px]"
-                      />
-                      <div className="">
-                        <h5
-                          className={
-                            "font-mono text-[16px] mb-1 " +
-                            (careers.includes(router.pathname)
-                              ? "text-white"
-                              : "text-Mblack")
-                          }
-                        >
-                          Careers
-                        </h5>
-                        <p
-                          className={
-                            "text-[14px] " +
-                            (careers.includes(router.pathname)
-                              ? "text-white opacity-70"
-                              : "text-[#737373]")
-                          }
-                        >
-                          Join Our Life-Saving Team.
-                        </p>
-                      </div>
-                    </Link>
-                    <Link href="/contact" className="flex items-start gap-3">
-                      <img
-                        src={
-                          originalUrl +
-                          (careers.includes(router.pathname)
-                            ? "/images/AddressBook1.svg"
-                            : "/images/AddressBook.svg")
-                        }
-                        alt=""
-                        className="w-[24px] h-[24px]"
-                      />
-                      <div className="">
-                        <h5
-                          className={
-                            "font-mono text-[16px] mb-1 " +
-                            (careers.includes(router.pathname)
-                              ? "text-white"
-                              : "text-Mblack")
-                          }
-                        >
-                          Contact
-                        </h5>
-                        <p
-                          className={
-                            "text-[14px] text-[#737373] " +
-                            (careers.includes(router.pathname)
-                              ? "text-white opacity-70"
-                              : "text-[#737373]")
-                          }
-                        >
-                          Need Help? We’re Here 24/7.
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <div
-              className={
-                "w-full h-[1px] " +
-                (careers.includes(router.pathname)
-                  ? "bg-[#EAECF0] opacity-30"
-                  : "bg-[#EAECF0]")
-              }
-            ></div>
-            <li className="w-full">
-              <Link
-                href="/blog"
-                onClick={() => setToogleMenuResponsive(!ToogleMenuResponsive)}
-                className={
-                  "font-medium " +
-                  (careers.includes(router.pathname)
-                    ? "text-white"
-                    : "text-Mblack")
-                }
-              >
-                Blog
               </Link>
             </li>
             <div
@@ -345,17 +154,6 @@ const Navbar = ({ enableAOS }) => {
                   About Us
                 </Link>
                 <Link
-                  href="/contact"
-                  className={
-                    "text__16 " +
-                    (careers.includes(router.pathname)
-                      ? "text-white"
-                      : "text-Mblack")
-                  }
-                >
-                  Contact
-                </Link>
-                <Link
                   href="/services"
                   className={
                     "text__16 " +
@@ -365,40 +163,6 @@ const Navbar = ({ enableAOS }) => {
                   }
                 >
                   Services
-                </Link>
-                <div
-                  onClick={() => setToogleMenuCompany(!ToogleMenuCompany)}
-                  className={
-                    "flex items-center gap-2 text__16 cursor-pointer " +
-                    (careers.includes(router.pathname)
-                      ? "text-white"
-                      : "text-Mblack")
-                  }
-                >
-                  Company
-                  <div
-                    className={
-                      "transition-all duration-300 " +
-                      (ToogleMenuCompany ? "-rotate-180" : "")
-                    }
-                  >
-                    <ArrowDownSvg
-                      color={
-                        careers.includes(router.pathname) ? "white" : "#171717"
-                      }
-                    />
-                  </div>
-                </div>
-                <Link
-                  href="/blog"
-                  className={
-                    "text__16 " +
-                    (careers.includes(router.pathname)
-                      ? "text-white"
-                      : "text-Mblack")
-                  }
-                >
-                  Blog
                 </Link>
               </div>
 
@@ -453,6 +217,7 @@ const Navbar = ({ enableAOS }) => {
             </div>
           </Container>
 
+          {/* Company dropdown menu - commented out
           <div
             className={
               "lg:block hidden border-t  py-3 transition-all duration-300 absolute left-1/2 -translate-x-1/2 w-full shadow-[12px_12px_12px_0px_#00000014] " +
@@ -561,13 +326,14 @@ const Navbar = ({ enableAOS }) => {
                           : "text-[#737373]")
                       }
                     >
-                      Need Help? We’re Here 24/7.
+                      Need Help? We're Here 24/7.
                     </p>
                   </div>
                 </Link>
               </div>
             </Container>
           </div>
+          */}
         </div>
       </div>
     </Fragment>

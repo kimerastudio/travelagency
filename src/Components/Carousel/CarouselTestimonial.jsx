@@ -59,7 +59,7 @@ const CarouselTestimonial = ({ enableAOS = false }) => {
             </div>
 
             <p className="text__18 mb-3">
-            Since I had Carlos's contact on my phone, every time I travel it's a walk in the park; I delegate most of the work to him at no cost.
+            Since I had Carlos' contact on my phone, every time I travel it's a walk in the park; I delegate most of the work to him at no cost.
             </p>
 
             <div className="flex items-center gap-3">
