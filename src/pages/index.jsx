@@ -264,7 +264,7 @@ const Index = () => {
           </Container>
         </section>
 
-        <section>
+        /*<section>
           <Container>
             <Row className="justify-between gap-y-6">
               <Col
@@ -306,7 +306,7 @@ const Index = () => {
               </Col>
             </Row>
           </Container>
-        </section>
+        </section> */
 
         <SecStep enableAOS={true} />
 
