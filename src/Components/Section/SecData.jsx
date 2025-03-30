@@ -8,8 +8,8 @@ const SecData = () => {
                 <Container>
                     <Row>
                         <Col md={9}>
-                            <h2 className='font-medium text__46 mb-3'>We understand that <br /> navigating the healthcare</h2>
-                            <p className='text__18 leading-relaxed text-Msecondary mb-3'>our mission is to connect individuals with the resources and services they need to make informed decisions about their health. We understand that navigating the healthcare landscape can be challenging, and that's why we are dedicated to providing reliable, trustworthy, and up-to-date information to empower you to take control of your well-being.</p>
+                            <h2 className='font-medium text__46 mb-3'>I have a relentless  <br />passion for travel</h2>
+                            <p className='text__18 leading-relaxed text-Msecondary mb-3'> I have been able to explore the world and its wonders; now I want to help you get to know it too.</p>
                         </Col>
                     </Row>
 
@@ -24,7 +24,7 @@ const SecData = () => {
 
                             <div className="pl-4 py-3">
                                 <h5 className='font-medium text__48 mb-2'>35+</h5>
-                                <p className='text__16 text-Msecondary leading-relaxed'>Rears of experience in the health care industry</p>
+                                <p className='text__16 text-Msecondary leading-relaxed'>Countries visited</p>
                             </div>
                         </Col>
                         <Col md={4} className='relative flex-fill'>
@@ -36,8 +36,8 @@ const SecData = () => {
                             </div>
 
                             <div className="pl-4 py-3">
-                                <h5 className='font-medium text__48 mb-2'>320+</h5>
-                                <p className='text__16 text-Msecondary leading-relaxed'>Articles and resources on a wide range of health topics</p>
+                                <h5 className='font-medium text__48 mb-2'>5000+</h5>
+                                <p className='text__16 text-Msecondary leading-relaxed'>Satisfied customers</p>
                             </div>
                         </Col>
                         <Col md={4} className='relative flex-fill'>
@@ -49,8 +49,8 @@ const SecData = () => {
                             </div>
 
                             <div className="pl-4 py-3">
-                                <h5 className='font-medium text__48 mb-2'>98%</h5>
-                                <p className='text__16 text-Msecondary leading-relaxed'>Satisfied users who have benefited from our content and services</p>
+                                <h5 className='font-medium text__48 mb-2'>7</h5>
+                                <p className='text__16 text-Msecondary leading-relaxed'>Times I could have gone to the moon and back with the distance I have traveled</p>
                             </div>
                         </Col>
                     </Row>

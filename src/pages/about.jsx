@@ -69,8 +69,8 @@ const About = () => {
                 About Me
               </dv>
               <h2 className="font-medium text__48 mt-3 text-center">
-                Promoting health and wellness through{" "}
-                <br className="sm:block hidden" /> information and services
+                Get to know{" "}
+                <br className="sm:block hidden" /> your travel agent
               </h2>
             </div>
           </Container>
