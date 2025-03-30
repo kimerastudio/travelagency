@@ -130,7 +130,11 @@ const Navbar = ({ enableAOS }) => {
           <Container className="py-4">
             <div className="flex items-center justify-between relative">
               <Link href="/" className="flex items-center gap-2">
-                <LogoSvg classData={"w-[32px]"} color={"#007660"} />
+                <img 
+                  src={originalUrl + "/images/profile-picture.jpg"}
+                  alt="Profile"
+                  className="w-[40px] h-[40px] rounded-full"
+                />
                 <h5
                   className={
                     "font-medium text-[16px] " +
