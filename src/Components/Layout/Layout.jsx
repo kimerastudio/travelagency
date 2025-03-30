@@ -5,8 +5,8 @@ import Head from "next/head";
 
 const Layout = ({
   children,
-  title = "Healify",
-  description = "Healify Desc",
+  title = "Travel by the Web",
+  description = "Discover seamless travel planning with Carlos, your personal travel agent. Unlock exclusive deals, personalized itineraries, and expert support every step of your journey.",
   enableAOS = false,
   hideFooter = false,
 }) => {
