@@ -38,10 +38,10 @@ const Index = () => {
                   data-aos-delay="300"
                   className="text__18 text-Msecondary"
                 >
-                  Hello! I am Carlos, I specialize in finding the best flights, 
-                  vacations, and hotels tailored just for you. I can help you transform
-                   your travel dreams into reality by providing personalized service and expert 
-                   guidance—all conveniently through WhatsApp.
+                  Hello! I'm Carlos. I can help you transform your travel dreams 
+                  into reality by providing personalized service and expert 
+                  guidance—all conveniently through WhatsApp and with the help 
+                  of my colleague Ignacio, who has worked with me for the past 28 years.
                 </p>
               </Col>
               <Col className="my-auto xl:text-right" xl={3}>
@@ -125,10 +125,11 @@ const Index = () => {
 
                       <div className="mt-[2rem]">
                         <h5 className="font-medium text__24 mb-2">
-                          Completely free
+                          Service Fee
                         </h5>
                         <p className="text__18 text-[#737373]">
-                          You never have to pay me a dime.
+                        We have a service charge in place to maintain the exceptional 
+                        level of customer support  and continually improve our products.
                         </p>
                       </div>
                     </div>
