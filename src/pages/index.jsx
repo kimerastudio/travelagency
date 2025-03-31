@@ -120,16 +120,15 @@ const Index = () => {
 
                     <div className="pl-4">
                       <div className="mt-3 w-[64px] h-[64px] bg-[#F9FAFB] border !border-[#EAECF0] rounded-[6px] flex items-center justify-center">
-                        <img src="./../images/currency-dollar.svg" alt="" />
+                        <img src="./../images/island.svg" alt="" />
                       </div>
 
                       <div className="mt-[2rem]">
                         <h5 className="font-medium text__24 mb-2">
-                          Service Fee
+                          A true vacation
                         </h5>
                         <p className="text__18 text-[#737373]">
-                        We have a service charge in place to maintain the exceptional 
-                        level of customer support  and continually improve our products.
+                        Sit back and relax. I will handle the annoying part of traveling so you can enjoy your adventure.
                         </p>
                       </div>
                     </div>
