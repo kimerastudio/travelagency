@@ -100,7 +100,7 @@ const Index = () => {
             >
               With years of experience, I specialize in uncovering unbeatable flight deals.
               <br className="md:block hidden" />
-               I will navigate the complexities of travel for you.
+                I will navigate the complexities of travel for you.
             </p>
 
             <Row className="justify-center gap-y-6">
