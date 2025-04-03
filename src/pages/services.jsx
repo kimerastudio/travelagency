@@ -77,12 +77,24 @@ const Services = () => {
                                 <h2 className='font-medium text__46 mb-3'>Hotel Booking</h2>
                                 <p className='text__18 leading-relaxed text-Msecondary mb-3'>I leverage my industry connections to scout a wide range of accommodations—from luxury hotels to cozy boutique stays. With competitive rates and personalized recommendations, I secure the ideal lodging that meets your comfort and convenience requirements. </p>
 
-                                <a href="https://wa.me/+13054489987" className='mt-[2rem] inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
-                                    <div className="flex gap-2">
-                                        Get Started
-                                        <ArrowRightSvg />
-                                    </div>
-                                </a>
+                                {/* Responsive button container */}
+                                <div className="mt-[2rem] flex flex-wrap gap-4">
+                                    {/* Original button */}
+                                    <a href="https://wa.me/+13054489987" className='inline-block px-4 py-3 rounded-[12px] text-Mgreen border !border-[rgba(0,118,96,0.2)] font-medium text__16'>
+                                        <div className="flex gap-2">
+                                            Get Started
+                                            <ArrowRightSvg />
+                                        </div>
+                                    </a>
+                                    
+                                    {/* New vacation rentals button */}
+                                    <a href="https://allways.rentalz.com/" target="_blank" rel="noopener noreferrer" className='inline-block px-4 py-3 rounded-[12px] bg-Mgreen text-white border !border-Mgreen font-medium text__16'>
+                                        <div className="flex gap-2">
+                                            Explore Our Vacation Rentals
+                                            <ArrowRightSvg color="white" />
+                                        </div>
+                                    </a>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
