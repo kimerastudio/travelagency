@@ -74,7 +74,7 @@ const Services = () => {
                                     <img src="./../images/building.svg" alt="" />
                                 </div>
 
-                                <h2 className='font-medium text__46 mb-3'>Hotel Booking</h2>
+                                <h2 className='font-medium text__46 mb-3'>Hotels & Rentals</h2>
                                 <p className='text__18 leading-relaxed text-Msecondary mb-3'>I leverage my industry connections to scout a wide range of accommodations—from luxury hotels to cozy boutique stays. With competitive rates and personalized recommendations, I secure the ideal lodging that meets your comfort and convenience requirements. </p>
 
                                 {/* Responsive button container */}
